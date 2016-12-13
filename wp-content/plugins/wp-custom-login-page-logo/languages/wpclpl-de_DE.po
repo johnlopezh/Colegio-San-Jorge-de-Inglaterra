@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Custom-Login-Page-Logo\n"
+"POT-Creation-Date: 2014-11-28 13:20+0100\n"
+"PO-Revision-Date: 2015-12-27 19:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: Lars Ortlepp <job@larsactionhero.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;esc_attr_e;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-custom-login-page-logo.php:48 wp-custom-login-page-logo.php:602
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: wp-custom-login-page-logo.php:110
+msgid ""
+"This Plugin allows you to change the default (wordPress-) logo at the admin "
+"login page."
+msgstr ""
+"Dieses Plugin ermöglicht es Dir, das Logo auf der Admin-Loginseite zu ändern."
+
+#: wp-custom-login-page-logo.php:112
+msgid ""
+"Helpful if you want to customize the login page for your clients or a "
+"company."
+msgstr ""
+"Hilfreich, wenn das Logo der Loginseite angepasst werden soll (z.B. für "
+"einen Kunden, eine Firma oder für Dich selbst)."
+
+#: wp-custom-login-page-logo.php:129
+msgid "Select an image file"
+msgstr "Datei für Logo wählen"
+
+#: wp-custom-login-page-logo.php:131
+msgid "Select an existing image from the media library or upload a new one."
+msgstr "Wähle ein Logo aus der Medienübersicht oder lade ein neues hoch."
+
+#: wp-custom-login-page-logo.php:132
+msgid "You also can insert an image url manually:"
+msgstr "Du kannst auch manuell eine Bild-URL angeben:"
+
+#: wp-custom-login-page-logo.php:133
+msgid "Insert URL here or select image with button below."
+msgstr ""
+"Trage die URL des Bildes hier ein oder wähle eine Bilddatei mit dem Button "
+"unten."
+
+#: wp-custom-login-page-logo.php:134
+msgid "e.g."
+msgstr "z.B."
+
+#: wp-custom-login-page-logo.php:172
+msgid "Remove Image"
+msgstr "Logo zurücksetzen"
+
+#: wp-custom-login-page-logo.php:173
+msgid "File in Media Library will not be deleted"
+msgstr "Die Datei verbleibt in der Medienübersicht."
+
+#: wp-custom-login-page-logo.php:181
+msgid "Default WP Logo"
+msgstr "Standard WordPress-Logo"
+
+#: wp-custom-login-page-logo.php:231
+msgid "Original size"
+msgstr "Originalgröße"
+
+#: wp-custom-login-page-logo.php:242
+msgid ""
+"Note: The Plugin can not read dimensions of external files. Please add them "
+"to your stylesheet manually."
+msgstr ""
+"Hinweis: Abmessungen externer Dateien können nicht ermittelt werden. Diese "
+"müssen manuell zum Stylesheet hinzugefügt werden."
+
+#: wp-custom-login-page-logo.php:274
+msgid "This text will appear below the custom logo"
+msgstr "Dieser Text erscheint unter dem Login-Logo"
+
+#: wp-custom-login-page-logo.php:276
+msgid ""
+"Add some optional user information. This text will appear below the custom "
+"logo."
+msgstr ""
+"Füge einen optionalen Text für den Benutzer hinzu. Dieser erscheint unter "
+"dem Login-Logo."
+
+#: wp-custom-login-page-logo.php:343 wp-custom-login-page-logo.php:344
+msgid "matched to image dimensions"
+msgstr "Abmessungen des Logos"
+
+#: wp-custom-login-page-logo.php:363
+msgid "Enter your custom css style for your logo."
+msgstr "Dein eigenes Stylesheet."
+
+#: wp-custom-login-page-logo.php:364
+msgid ""
+"There's nothing to see at the beginning because the login page logo is "
+"styled by default."
+msgstr ""
+"Am Anfang ist nichts zu sehen, da das Logo der Login-Seite von WordPress "
+"formatiert wird."
+
+#: wp-custom-login-page-logo.php:365
+msgid "You also may load an example css to start and customize it."
+msgstr ""
+"Du kannst zu Beginn eine Stylesheet-Vorlage laden und diese nach Deinen "
+"Vorstellungen anpassen."
+
+#: wp-custom-login-page-logo.php:367
+msgid "Load example CSS"
+msgstr "Beispiel-Style laden"
+
+#: wp-custom-login-page-logo.php:370
+msgid "Note:  There's no need to insert an"
+msgstr "Hinweis: Der Wert für"
+
+#: wp-custom-login-page-logo.php:370
+msgid "background-image"
+msgstr "background-image"
+
+#: wp-custom-login-page-logo.php:370
+msgid "value here, it will be added by default to the final output."
+msgstr "wird automatisch zur Stylesheet-Ausgabe hinzugefügt."
+
+#: wp-custom-login-page-logo.php:373
+msgid "The final css output is displayed below."
+msgstr "Die endgültige Ausgabe des Styles wird unten angezeigt."
+
+#: wp-custom-login-page-logo.php:434 wp-custom-login-page-logo.php:446
+msgid "Confirm reset"
+msgstr "Zurücksetzen bestätigen"
+
+#: wp-custom-login-page-logo.php:435
+msgid ""
+"This will remove the custom image.<br />(File will be kept in the library)."
+msgstr ""
+"Das derzeitige Logo wird entfernt.<br />(Die Datei verbleibt in der "
+"Medienübersicht.)"
+
+#: wp-custom-login-page-logo.php:437 wp-custom-login-page-logo.php:449
+msgid "Are you sure you want to continue?"
+msgstr "Möchtest Du fortfahren?"
+
+#: wp-custom-login-page-logo.php:438 wp-custom-login-page-logo.php:450
+msgid "No, keep settings"
+msgstr "Nein, Einstellungen beibehalten"
+
+#: wp-custom-login-page-logo.php:438 wp-custom-login-page-logo.php:450
+msgid "Reset all settings"
+msgstr "Alle Einstellungen zurücksetzen"
+
+#: wp-custom-login-page-logo.php:447
+msgid ""
+"This will reset all your settings, including the custom image, additonal "
+"text and any entered styles."
+msgstr ""
+"Dies wird alle gemachten Einstellungen zurücksetzen: Logo, Text und "
+"Stylesheet."
+
+#: wp-custom-login-page-logo.php:457
+msgid "Custom Login Page Logo"
+msgstr "Custom Login Page Logo"
+
+#: wp-custom-login-page-logo.php:458
+msgid "Settings saved."
+msgstr "Einstellungen wurden gespeichert."
+
+#: wp-custom-login-page-logo.php:459
+msgid "Error: Could not save settings."
+msgstr "Fehler: Einstellungen konnten nicht gespeichert werden."
+
+#: wp-custom-login-page-logo.php:459
+msgid "Please try again."
+msgstr "Versuche es erneut."
+
+#: wp-custom-login-page-logo.php:468
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: wp-custom-login-page-logo.php:469
+msgid "Reset to default"
+msgstr "Einstellungen auf Standard zurücksetzen"
+
+#: wp-custom-login-page-logo.php:605
+msgid "Logo"
+msgstr "Logo"
+
+#: wp-custom-login-page-logo.php:608
+msgid "Logo Preview"
+msgstr "Logo (Vorschau)"
+
+#: wp-custom-login-page-logo.php:611
+msgid "Additional Text"
+msgstr "Optionaler Text"
+
+#: wp-custom-login-page-logo.php:614
+msgid "Custom CSS Styles"
+msgstr "Eigenes Stylesheet"
+
+#: wp-custom-login-page-logo.php:617
+msgid "Preview CSS Output"
+msgstr "Vorschau der Stylesheet-Ausgabe"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentation"
+
+#~ msgid "This will reset the selected custom image."
+#~ msgstr ""
+#~ "Das vorhandene Bild wird entfernt (Die Datei verbleibt in der "
+#~ "Medienübersicht.)"
+
+#~ msgid ""
+#~ "You also can insert an image url manually.<br>Note: only images on your "
+#~ "server will work. External files will not work due to safety restrictions."
+#~ msgstr "Du kannst auch eine externe URL angeben.<br>"
+
+#~ msgid "Insert image url here"
+#~ msgstr "Hier die Bild-URL eintragen."
+
+#~ msgid "Or select an image with button below."
+#~ msgstr "Oder klicke auf den Button, um eine Datei auszuwählen."

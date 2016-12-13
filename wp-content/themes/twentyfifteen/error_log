@@ -1,0 +1,2 @@
+[31-Oct-2016 01:17:34 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/sgsekadt/public_html/wps/portal/wp-content/themes/twentyfifteen/404.php on line 10
+[12-Nov-2016 19:29:50 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/sgsekadt/public_html/wps/portal/wp-content/themes/twentyfifteen/404.php on line 10

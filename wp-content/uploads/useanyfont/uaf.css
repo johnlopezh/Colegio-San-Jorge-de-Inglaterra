@@ -1,0 +1,70 @@
+			@font-face {
+				font-family: 'avenir-lts-td-light';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/160624015551Avenir-LTS-td-Light.eot');
+				src: local('avenir-lts-td-light'), url('/wp-content/uploads/useanyfont/160624015551Avenir-LTS-td-Light.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/160624015551Avenir-LTS-td-Light.woff') format('woff');
+			}
+            
+            .avenir-lts-td-light{font-family: 'avenir-lts-td-light' !important;}
+            
+					@font-face {
+				font-family: 'avenir-lts-td-bold';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/160624015612Avenir-LTS-td-Bold.eot');
+				src: local('avenir-lts-td-bold'), url('/wp-content/uploads/useanyfont/160624015612Avenir-LTS-td-Bold.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/160624015612Avenir-LTS-td-Bold.woff') format('woff');
+			}
+            
+            .avenir-lts-td-bold{font-family: 'avenir-lts-td-bold' !important;}
+            
+					@font-face {
+				font-family: 'segoe-ui';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/160804083206Segoe-UI.eot');
+				src: local('segoe-ui'), url('/wp-content/uploads/useanyfont/160804083206Segoe-UI.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/160804083206Segoe-UI.woff') format('woff');
+			}
+            
+            .segoe-ui{font-family: 'segoe-ui' !important;}
+            
+					@font-face {
+				font-family: 'segoe-ui-bold';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/160804083238Segoe-UI-Bold.eot');
+				src: local('segoe-ui-bold'), url('/wp-content/uploads/useanyfont/160804083238Segoe-UI-Bold.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/160804083238Segoe-UI-Bold.woff') format('woff');
+			}
+            
+            .segoe-ui-bold{font-family: 'segoe-ui-bold' !important;}
+            
+					@font-face {
+				font-family: 'segoe-ui-light';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/160804083316Segoe-UI-Light.eot');
+				src: local('segoe-ui-light'), url('/wp-content/uploads/useanyfont/160804083316Segoe-UI-Light.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/160804083316Segoe-UI-Light.woff') format('woff');
+			}
+            
+            .segoe-ui-light{font-family: 'segoe-ui-light' !important;}
+            
+					@font-face {
+				font-family: 'segoe-ui-semilight';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/160804083538Segoe-UI-SemiLight.eot');
+				src: local('segoe-ui-semilight'), url('/wp-content/uploads/useanyfont/160804083538Segoe-UI-SemiLight.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/160804083538Segoe-UI-SemiLight.woff') format('woff');
+			}
+            
+            .segoe-ui-semilight{font-family: 'segoe-ui-semilight' !important;}
+            
+					@font-face {
+				font-family: 'segoe-ui-bold-force';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/160804083618Segoe-UI-Bold-Force.eot');
+				src: local('segoe-ui-bold-force'), url('/wp-content/uploads/useanyfont/160804083618Segoe-UI-Bold-Force.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/160804083618Segoe-UI-Bold-Force.woff') format('woff');
+			}
+            
+            .segoe-ui-bold-force{font-family: 'segoe-ui-bold-force' !important;}
+            
+						body, p, blockquote, li, a{
+					font-family: 'segoe-ui' !important;
+				}
+						h1, h2, h3{
+					font-family: 'segoe-ui-bold' !important;
+				}
+		

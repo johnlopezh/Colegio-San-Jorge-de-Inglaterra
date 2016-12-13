@@ -1,0 +1,311 @@
+/*
+Theme Name:     Colegio San Jorge de Inglaterra
+Theme URI: 		http://www.sgs.edu.co
+Description:    Template Colegio San Jorge de Inglaterra
+Author:         John Albeto López Hernández
+Template:       jupiter
+Version:        1.0
+Modificación:   7 de Julio de 2016;
+*/
+ul li {
+    color: #777 !important;
+}
+table td {
+    padding: 4px !important;
+}
+/* Plugin Lenguaje Banderas Header */
+.languaje {
+	text-align: right;
+	z-index: 1000;
+        list-style: none;
+}
+li.lang-item {
+    list-style: none;
+    display: inline;
+}
+li.menu_admisiones {
+    background: nones;
+}
+/* Vínculos de Interés parte inferior */
+ul.vinculosinteres li {
+    list-style: none;
+    display: inline;
+    border-right: 1px solid #757575;
+    padding: 0 4px;
+}
+ul.vinculosinteres li:first-child {
+    border-right: none;
+}
+ul.vinculosinteres li:nth-child(2) {
+    border-right: none;
+}
+ul.vinculosinteres li:last-child {
+    border: none;
+}
+/* Modificaciones Footer */ 
+#mk-footer .widget {
+    text-align: left;
+}
+span.mk-footer-copyright {
+    text-align: center;
+    width: 100%;
+}
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 0;
+}
+#mk-footer .mk-padding-wrapper {
+    padding: 0 3px !important;
+}
+
+/*******************************************************************
+  SECCIÓN ¿QUÉ ES SGS? CUADROS. 
+
+********************************************************************/
+.cuadro_intro_hover{
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+.cuadro_intro_hover:hover .caption{
+    opacity: 1;
+    transform: translateY(-170px);
+    -webkit-transform:translateY(-170px);
+    -moz-transform:translateY(-170px);
+    -ms-transform:translateY(-170px);
+    -o-transform:translateY(-170px);
+}
+.cuadro_intro_hover img{
+    z-index: 4;
+}
+.cuadro_intro_hover .caption{
+    position: absolute;
+    top:170px;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    width: 100%;
+}
+.cuadro_intro_hover .blur{
+    height: 200px;
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+}
+.cuadro_intro_hover .caption-text{
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+}
+.azul,
+.rojo {
+    border-radius: 3px;
+    padding: 4px;
+}
+.cuadro_intro_hover .azul {
+    background-color: #213e81;
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+    height: 200px;
+}
+.cuadro_intro_hover .rojo {
+    background-color: #d92626;
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+    height: 200px;
+}
+#contentbox h3 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#contentbox h3 a
+{
+    color: #fff !important;
+}
+#contentbox h3 a:hover
+{
+    color: #e1faff !important;
+}
+#contentbox ul {
+    margin-left: 0px;
+    margin-top: 15px;
+}
+#contentbox ul li {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    list-style: none;
+}
+#contentbox ul li a{
+    color: #fff;
+}
+/*----------------INPUT BUSCADOR HEADER-----------------------*/
+.mk-header-inner .mk-header-searchform .text-input {
+    border: 1px solid;
+}
+.mk-header-searchform span .text-input {
+    border-radius: 0;
+}
+/*****************SUB FOOTER - COPYRIGHT*************************/
+#sub-footer a {
+  color: #FFFFFF;
+}
+#sub-footer a:hover {
+  text-decoration: underline;
+}
+/************** Plugin WP CATEGORY ARCHIVES *********************/
+ul.jaw_widget li {
+    list-style: none;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+ul.Noticias li a {
+    color: #333 !important;
+}
+li.jaw_months,
+li.jaw_posts  {
+    border: none !important;
+}
+/**********************/
+.mk-blog-single.blog-style-bold {
+    padding: 0;
+}
+.mk-single-content {
+    margin: 0 0 60px; 
+}
+.mk-header {
+    border-bottom: none !important;
+}
+/************************************/
+.mk-blog-hero.bold-style {
+    background-size: initial !important;
+}
+.mk-blog-hero.bold-style .content-holder {
+    position: absolute !important;
+    bottom: 0px;
+    background: -webkit-linear-gradient(bottom,rgba(0,0,0,.95) 0,rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg,rgba(0,0,0,.95) 0,rgba(0,0,0,0) 100%);
+    width: 100%;
+}
+.mk-blog-hero.bold-style .the-title {
+    font-size: 28px;
+    text-align: left;
+    max-width: 100%;
+    padding: 15px;
+}
+.mk-blog-single .blog-single-title, .mk-blog-hero .content-holder .the-title {
+    font-weight: 500 !important;
+}
+
+.mk-blog-hero.bold-style:before {
+    background: none !important;
+    opacity: .1; 
+}
+.mk-blog-classic-item .featured-image:hover img, .mk-blog-modern-item .featured-image:hover img {
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+}
+.mk-isotop-item {
+    border: 1px solid;
+    border-color: #e9ebee #e9ebee #d1d1d1;
+}
+/*******************************************/
+li.pagosenlinea {
+    background: #3661a5;
+    border-radius: 5px;
+    padding: 7px !important;
+    margin: 0 2px;
+}
+li.pagosenlinea a{
+    color: #fff !important;
+}
+li.pagosenlinea a:hover{
+    color: #E3F2FD !important;
+}
+li.foodservice {
+    background: #d8e600;
+    border-radius: 5px;
+    padding: 7px !important;
+    margin: 0 2px;
+}
+li.foodservice a{
+    color: #212121 !important;
+    font-weight: 600;
+}
+li.foodservice a:hover{
+    color: #484c0d !important;
+}
+.mk-blog-classic-item .the-title, .mk-blog-modern-item .the-title {
+    letter-spacing: 0px !important;
+}
+a.terminosycondiciones
+,a.politicatratamiento {
+    background: rgba(90, 161, 227, 0.5);
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+a.terminosycondiciones:hover
+,a.politicatratamiento:hover {
+    background: #315e88;
+    text-decoration: none !important;
+}
+
+.mk-blog-magazine-item.magazine-featured-post .featured-image .image-gradient-overlay {
+    background: none !important;
+
+}
+.mk-blog-magazine-item.magazine-thumb-post .the-title {
+    font-size: 18px!important;
+}
+.mk-blog-magazine-item .the-title {
+   letter-spacing: 0px; 
+}
+.mk-blog-magazine-item .the-title {
+    font-size: 22px !important;
+}
+.sidebar-wrapper {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#mk-sidebar .widget a {
+    color: #666;
+    font-weight: 600;
+}
+section#mk-page-introduce {
+    border-bottom: 1px solid #ddd;
+}
+.master-holder.blog-style-bold .mk-blog-single {
+   padding: 0;
+}
+.mk-clients .client-logo {
+    opacity: 1.0 !important;
+}
+.menu-hover-style-4 .main-navigation-ul>li.menu-item>a.menu-item-link {
+   margin-left: 0px !important;
+}
+.header-style-2 .main-navigation-ul>li.menu-item>a.menu-item-link {
+    line-height: 25px !important;
+}
+.master-holder.blog-style-bold #comments, .master-holder.blog-style-bold .mk-about-author-wrapper, .master-holder.blog-style-bold .mk-single-content, .master-holder.blog-style-bold .single-post-tags {
+    max-width: 95% !important;
+}
+.widget_posts_lists ul li .post-list-info {
+    margin: 0 !important;
+}
